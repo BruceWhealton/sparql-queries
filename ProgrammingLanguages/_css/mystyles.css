@@ -1,0 +1,59 @@
+/* CSS Document */
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+#lang-list {
+	text-align: center;
+}
+
+
+.ui-controlgroup {
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 250px;
+}
+
+img {
+	width: 50%;
+	max-width: 200px;
+}
+
+
+#lang-list div ul#list-result {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #039;
+	list-style-position: inside;
+	list-style-type: none;
+	line-height: 120%;
+	background-position: left;
+	text-align: left;
+}
+#lang-list div ul#list-result li {
+	line-height: 1.4em;
+	text-decoration: none;
+	padding: 10px;	
+	color:#402C01;
+	text-shadow: 0.16em 0.16em 0.2em #666;
+}
+#lang-list div ul#list-result li a,
+#lang-list div ul#list-result li a:visited,
+#lang-list div ul#list-result li a:link {
+	color: #E81B05;
+	letter-spacing: .16em;
+	text-indent: 5px;
+	word-spacing: .20em;
+	display: block;
+}
+/*#lang-list div ul#list-result li:nth-child(2n-1) {
+	background-color: #FFDE20;
+}*/
+/*#lang-list div ul#list-result li:nth-child(2n) {
+	background-color: #E8CA00;
+}*/
+#lang-list div ul#list-result li:hover {
+	background-color: #FFDE20;
+}

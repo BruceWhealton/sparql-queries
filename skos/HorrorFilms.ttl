@@ -1,0 +1,614 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix category: <http://dbpedia.org/resource/Category:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+category:Supernatural_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Supernatural horror films"@en .
+
+category:Zombie_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Zombie films"@en .
+
+<http://dbpedia.org/resource/Category:1980s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1980s horror films"@en .
+
+category:Slasher_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Slasher films"@en .
+
+category:Natural_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Natural horror films"@en .
+
+category:Ringu_cycle a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Ringu cycle"@en .
+
+category:Films_based_on_horror_novels a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Films based on horror novels"@en .
+
+<http://dbpedia.org/resource/Category:1940s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1940s horror films"@en .
+
+category:Hannibal_Lecter a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "Hannibal Lecter"@en .
+
+<http://dbpedia.org/resource/Category:2000s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "2000s horror films"@en .
+
+category:Psychological_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Psychological horror films"@en .
+
+category:Werewolves_in_film a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Werewolves in film"@en .
+
+<http://dbpedia.org/resource/Category:Scream_(film_series)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Scream (film series)"@en .
+
+category:Living_Dead_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Living Dead films"@en .
+
+category:A_Nightmare_on_Elm_Street_characters a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "A Nightmare on Elm Street characters"@en .
+
+category:Species_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Species films"@en .
+
+<http://dbpedia.org/resource/Category:1970s_horror_film_stubs> a skos:Concept ;
+	skos:broader category:Horror_film_stubs ;
+	skos:prefLabel "1970s horror film stubs"@en .
+
+category:Amityville_Horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Amityville Horror films"@en .
+
+category:Dracula_characters a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "Dracula characters"@en .
+
+category:House_of_1000_Corpses_characters a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "House of 1000 Corpses characters"@en .
+
+<http://dbpedia.org/resource/Category:Alien_(franchise)_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Alien (franchise) films"@en .
+
+category:Australian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Australian horror films"@en .
+
+<http://dbpedia.org/resource/Category:Scanners_(film_series)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Scanners (film series)"@en .
+
+<http://dbpedia.org/resource/Category:From_Dusk_Till_Dawn_(series)> a skos:Concept ;
+	skos:broader category:Vampires_in_film , category:Horror_films_by_series ;
+	skos:prefLabel "From Dusk Till Dawn (series)"@en .
+
+category:Lake_Placid_film_series a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Lake Placid film series"@en .
+
+category:Pumpkinhead_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Pumpkinhead films"@en .
+
+category:Thai_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Thai horror films"@en .
+
+category:Chinese_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Chinese horror films"@en .
+
+category:Swedish_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Swedish horror films"@en .
+
+category:Korean_horror a skos:Concept ;
+	skos:broader category:Asian_horror ;
+	skos:prefLabel "Korean horror"@en .
+
+category:Taiwanese_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country , category:Asian_horror ;
+	skos:prefLabel "Taiwanese horror films"@en .
+
+category:Swiss_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Swiss horror films"@en .
+
+category:Indonesian_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Indonesian horror films"@en .
+
+category:South_Korean_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "South Korean horror films"@en .
+
+<http://dbpedia.org/resource/Category:1900s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1900s horror films"@en .
+
+<http://dbpedia.org/resource/Category:1890s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1890s horror films"@en .
+
+category:Unreleased_horror_films a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Unreleased horror films"@en .
+
+category:Lists_of_horror_films_by_year a skos:Concept ;
+	skos:broader category:Lists_of_horror_films ;
+	skos:prefLabel "Lists of horror films by year"@en .
+
+category:One_Missed_Call a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "One Missed Call"@en .
+
+category:Singaporean_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Singaporean horror films"@en .
+
+category:Buffy_the_Vampire_Slayer a skos:Concept ;
+	skos:broader category:Vampires_in_film ;
+	skos:prefLabel "Buffy the Vampire Slayer"@en .
+
+category:Vampires_in_film a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Vampires in film"@en .
+
+category:Monster_movies a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Monster movies"@en .
+
+category:American_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "American horror films"@en .
+
+category:Action_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Action horror films"@en .
+
+category:Haunted_house_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Haunted house films"@en .
+
+category:Giant_monster_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Giant monster films"@en .
+
+<http://dbpedia.org/resource/Category:1960s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1960s horror films"@en .
+
+category:Horror_films a skos:Concept ;
+	skos:prefLabel "Horror Films" .
+
+category:Psycho_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Psycho films"@en .
+
+<http://dbpedia.org/resource/Category:Night_of_the_Living_Dead_(film_series)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Night of the Living Dead (film series)"@en .
+
+category:Science_fiction_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Science fiction horror films"@en .
+
+category:British_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "British horror films"@en .
+
+category:A_Nightmare_on_Elm_Street a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "A Nightmare on Elm Street"@en .
+
+category:Horror_hosts a skos:Concept ;
+	skos:broader category:Horror_movie_television_series ;
+	skos:prefLabel "Horror hosts"@en .
+
+category:Friday_the_13th_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Friday the 13th films"@en .
+
+category:Friday_the_13th_characters a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "Friday the 13th characters"@en .
+
+category:Religious_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Religious horror films"@en .
+
+<http://dbpedia.org/resource/Category:1920s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1920s horror films"@en .
+
+category:German_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "German horror films"@en .
+
+category:Nosferatu a skos:Concept ;
+	skos:broader category:Vampires_in_film , category:Horror_films_by_series ;
+	skos:prefLabel "Nosferatu"@en .
+
+category:Creature_Features a skos:Concept ;
+	skos:broader category:Horror_movie_television_series ;
+	skos:prefLabel "Creature Features"@en .
+
+<http://dbpedia.org/resource/Category:The_Omen_(film_series)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Omen (film series)"@en .
+
+<http://dbpedia.org/resource/Category:1990s_horror_film_stubs> a skos:Concept ;
+	skos:broader category:Horror_film_stubs ;
+	skos:prefLabel "1990s horror film stubs"@en .
+
+category:Tsukihime a skos:Concept ;
+	skos:broader category:Vampires_in_film ;
+	skos:prefLabel "Tsukihime"@en .
+
+category:Scream_characters a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "Scream characters"@en .
+
+category:French_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "French horror films"@en .
+
+<http://dbpedia.org/resource/Category:Halloween_(franchise)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series , category:Films_about_Halloween ;
+	skos:prefLabel "Halloween (franchise)"@en .
+
+category:The_Hills_Have_Eyes a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Hills Have Eyes"@en .
+
+category:Demons_in_film a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Demons in film"@en .
+
+category:Saw_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Saw films"@en .
+
+category:Irish_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Irish horror films"@en .
+
+category:Cinema_Insomnia a skos:Concept ;
+	skos:broader category:Horror_movie_television_series ;
+	skos:prefLabel "Cinema Insomnia"@en .
+
+category:Philippine_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Philippine horror films"@en .
+
+category:Mexican_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Mexican horror films"@en .
+
+category:Russian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Russian horror films"@en .
+
+category:Lists_of_horror_films_by_decade a skos:Concept ;
+	skos:broader category:Horror_films_by_decade , category:Lists_of_horror_films ;
+	skos:prefLabel "Lists of horror films by decade"@en .
+
+category:Malaysian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country , category:Asian_horror ;
+	skos:prefLabel "Malaysian horror films"@en .
+
+category:Chiller_Theatre a skos:Concept ;
+	skos:broader category:Horror_movie_television_series ;
+	skos:prefLabel "Chiller Theatre"@en .
+
+category:Singaporean_horror_fiction a skos:Concept ;
+	skos:broader category:Asian_horror ;
+	skos:prefLabel "Singaporean horror fiction"@en .
+
+category:The_Evil_Dead a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Evil Dead"@en .
+
+<http://dbpedia.org/resource/Category:1990s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1990s horror films"@en .
+
+category:Comedy_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Comedy horror films"@en .
+
+<http://dbpedia.org/resource/Category:1950s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1950s horror films"@en .
+
+category:Hellraiser a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Hellraiser"@en .
+
+category:The_Texas_Chainsaw_Massacre a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Texas Chainsaw Massacre"@en .
+
+category:Cannibal_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Cannibal films"@en .
+
+category:Ghost_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Ghost films"@en .
+
+category:Canadian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Canadian horror films"@en .
+
+category:Witches_in_film a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Witches in film"@en .
+
+category:The_Grudge a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Grudge"@en .
+
+<http://dbpedia.org/resource/Category:Zombi_(film_series)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Zombi (film series)"@en .
+
+category:Frankenstein_films a skos:Concept ;
+	skos:broader category:Films_based_on_horror_novels , category:Horror_films_by_series ;
+	skos:prefLabel "Frankenstein films"@en .
+
+category:Body_Snatchers_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Body Snatchers films"@en .
+
+category:New_Zealand_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "New Zealand horror films"@en .
+
+category:Japanese_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Japanese horror films"@en .
+
+category:Final_Destination a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Final Destination"@en .
+
+category:Halloweentown a skos:Concept ;
+	skos:broader category:Films_about_Halloween ;
+	skos:prefLabel "Halloweentown"@en .
+
+category:Films_about_Halloween a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Films about Halloween"@en .
+
+<http://dbpedia.org/resource/Category:2000s_horror_film_stubs> a skos:Concept ;
+	skos:broader category:Horror_film_stubs ;
+	skos:prefLabel "2000s horror film stubs"@en .
+
+<http://dbpedia.org/resource/Category:1980s_horror_film_stubs> a skos:Concept ;
+	skos:broader category:Horror_film_stubs ;
+	skos:prefLabel "1980s horror film stubs"@en .
+
+<http://dbpedia.org/resource/Category:Halloween_(film_series)_characters> a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "Halloween (film series) characters"@en .
+
+<http://dbpedia.org/resource/Category:1910s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1910s horror films"@en .
+
+category:Luxembourgian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Luxembourgian horror films"@en .
+
+<http://dbpedia.org/resource/Category:2010s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "2010s horror films"@en .
+
+<http://dbpedia.org/resource/Category:Return_of_the_Living_Dead_(film_series)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Return of the Living Dead (film series)"@en .
+
+category:Children_of_the_Corn_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Children of the Corn films"@en .
+
+category:Puppet_Master_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Puppet Master films"@en .
+
+<http://dbpedia.org/resource/Category:Blade_(comics)_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_series , category:Vampires_in_film ;
+	skos:prefLabel "Blade (comics) films"@en .
+
+category:Maneater_film_series a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Maneater film series"@en .
+
+category:South_African_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "South African horror films"@en .
+
+category:Hong_Kong_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Hong Kong horror films"@en .
+
+category:Animated_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Animated horror films"@en .
+
+category:Lists_of_horror_films a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Lists of horror films"@en .
+
+category:Norwegian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Norwegian horror films"@en .
+
+category:Austrian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Austrian horror films"@en .
+
+category:Cambodian_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Cambodian horror films"@en .
+
+category:Yeogo_goedam a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Yeogo goedam"@en .
+
+category:Tomie a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Tomie"@en .
+
+<http://dbpedia.org/resource/Category:1970s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1970s horror films"@en .
+
+category:Horror_film_characters a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror film characters"@en .
+
+category:Italian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Italian horror films"@en .
+
+category:Dracula_films a skos:Concept ;
+	skos:broader category:Vampires_in_film ;
+	skos:prefLabel "Dracula films"@en .
+
+<http://dbpedia.org/resource/Category:1930s_horror_films> a skos:Concept ;
+	skos:broader category:Horror_films_by_decade ;
+	skos:prefLabel "1930s horror films"@en .
+
+category:Pre-1960_horror_film_stubs a skos:Concept ;
+	skos:broader category:Horror_film_stubs ;
+	skos:prefLabel "Pre-1960 horror film stubs"@en .
+
+category:Howling_series a skos:Concept ;
+	skos:broader category:Horror_films_by_series , category:Werewolves_in_film ;
+	skos:prefLabel "Howling series"@en .
+
+category:Horror_film_stubs a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror film stubs"@en .
+
+category:Resident_Evil_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Resident Evil films"@en .
+
+category:Asian_horror a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Asian horror"@en .
+
+category:Horror_films_by_series a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror films by series"@en .
+
+category:The_Exorcist a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Exorcist"@en .
+
+<http://dbpedia.org/resource/Category:Underworld_(films)> a skos:Concept ;
+	skos:broader category:Horror_films_by_series , category:Vampires_in_film , category:Werewolves_in_film ;
+	skos:prefLabel "Underworld (films)"@en .
+
+<http://dbpedia.org/resource/Category:1960s_horror_film_stubs> a skos:Concept ;
+	skos:broader category:Horror_film_stubs ;
+	skos:prefLabel "1960s horror film stubs"@en .
+
+category:A_Chinese_Ghost_Story_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "A Chinese Ghost Story films"@en .
+
+category:Mummy_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Mummy films"@en .
+
+category:The_Brotherhood_series a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "The Brotherhood series"@en .
+
+category:Blind_Dead_films a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Blind Dead films"@en .
+
+category:Horror_films_by_genre a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror films by genre"@en .
+
+category:Saw_characters a skos:Concept ;
+	skos:broader category:Horror_film_characters ;
+	skos:prefLabel "Saw characters"@en .
+
+category:Horror_movie_television_series a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror movie television series"@en .
+
+category:Belgian_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Belgian horror films"@en .
+
+category:Romantic_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_genre ;
+	skos:prefLabel "Romantic horror films"@en .
+
+category:Japanese_horror_fiction a skos:Concept ;
+	skos:broader category:Asian_horror ;
+	skos:prefLabel "Japanese horror fiction"@en .
+
+category:Horror_films_by_country a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror films by country"@en .
+
+category:Indian_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Indian horror films"@en .
+
+category:Dutch_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Dutch horror films"@en .
+
+category:Spanish_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Spanish horror films"@en .
+
+category:Pakistani_horror_films a skos:Concept ;
+	skos:broader category:Asian_horror , category:Horror_films_by_country ;
+	skos:prefLabel "Pakistani horror films"@en .
+
+category:Horror_film_festivals a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror film festivals"@en .
+
+category:Portuguese_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Portuguese horror films"@en .
+
+<http://dbpedia.org/resource/Category:Gakk%C5%8D_no_Kaidan> a skos:Concept ;
+	skos:broader category:Horror_films_by_series ;
+	skos:prefLabel "Gakkō no Kaidan"@en .
+
+category:Horror_films_by_decade a skos:Concept ;
+	skos:broader category:Horror_films ;
+	skos:prefLabel "Horror films by decade"@en .
+
+category:Turkish_horror_films a skos:Concept ;
+	skos:broader category:Horror_films_by_country ;
+	skos:prefLabel "Turkish horror films"@en .

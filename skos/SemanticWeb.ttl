@@ -1,0 +1,38 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix category: <http://dbpedia.org/resource/Category:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+category:Resource_Description_Framework a skos:Concept ;
+	skos:broader category:Semantic_Web ;
+	skos:prefLabel "Resource Description Framework"@en .
+
+category:RSS a skos:Concept ;
+	skos:broader category:Resource_Description_Framework ;
+	skos:prefLabel "RSS"@en .
+
+category:Bibliography_file_formats a skos:Concept ;
+	skos:broader category:Domain-specific_knowledge_representation_languages ;
+	skos:prefLabel "Bibliography file formats"@en .
+
+category:Domain-specific_knowledge_representation_languages a skos:Concept ;
+	skos:broader category:Semantic_Web ;
+	skos:prefLabel "Domain-specific knowledge representation languages"@en .
+
+category:Semantic_HTML a skos:Concept ;
+	skos:broader category:Semantic_Web ;
+	skos:prefLabel "Semantic HTML"@en .
+
+category:RDF_data_access a skos:Concept ;
+	skos:broader category:Resource_Description_Framework ;
+	skos:prefLabel "RDF data access"@en .
+
+category:Microformats a skos:Concept ;
+	skos:broader category:Semantic_HTML , category:Domain-specific_knowledge_representation_languages ;
+	skos:prefLabel "Microformats"@en .
+
+category:Triplestores a skos:Concept ;
+	skos:broader category:Resource_Description_Framework ;
+	skos:prefLabel "Triplestores"@en .
+
+category:Semantic_Web a skos:Concept ;
+	skos:prefLabel "Semantic Web" .

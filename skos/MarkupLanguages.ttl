@@ -1,0 +1,206 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix category: <http://dbpedia.org/resource/Category:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+category:Ontology_languages a skos:Concept ;
+	skos:broader category:Knowledge_representation_languages ;
+	skos:prefLabel "Ontology languages"@en .
+
+category:Resource_Description_Framework a skos:Concept ;
+	skos:broader category:Knowledge_representation_languages ;
+	skos:prefLabel "Resource Description Framework"@en .
+
+category:GIS_file_formats a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "GIS file formats"@en .
+
+category:XSLT_processors a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XSLT processors"@en .
+
+category:User_interface_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "User interface markup languages"@en .
+
+category:XML_organizations a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML organizations"@en .
+
+category:XML_software a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML software"@en .
+
+category:Musical_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Musical markup languages"@en .
+
+category:RSS a skos:Concept ;
+	skos:broader category:Web_syndication_formats ;
+	skos:prefLabel "RSS"@en .
+
+category:Free_TeX_software a skos:Concept ;
+	skos:broader category:TeX ;
+	skos:prefLabel "Free TeX software"@en .
+
+category:Declarative_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Declarative markup languages"@en .
+
+category:HTML_tags a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "HTML tags"@en .
+
+category:Scalable_Vector_Graphics a skos:Concept ;
+	skos:broader category:Vector_graphics_markup_languages ;
+	skos:prefLabel "Scalable Vector Graphics"@en .
+
+category:Data_search_engines a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "Data search engines"@en .
+
+category:TeX a skos:Concept ;
+	skos:broader category:Markup_languages , category:Mathematical_markup_languages ;
+	skos:prefLabel "TeX"@en .
+
+category:XML a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "XML"@en .
+
+category:Lightweight_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Lightweight markup languages"@en .
+
+category:XML_parsers a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML parsers"@en .
+
+category:XML_data_access a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML data access"@en .
+
+<http://dbpedia.org/resource/Category:Atom_(standard)> a skos:Concept ;
+	skos:broader category:Web_syndication_formats ;
+	skos:prefLabel "Atom (standard)"@en .
+
+<http://dbpedia.org/resource/Category:Ajax_(programming)> a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "Ajax (programming)"@en .
+
+category:TeX_editors a skos:Concept ;
+	skos:broader category:TeX ;
+	skos:prefLabel "TeX editors"@en .
+
+category:XML_editors a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML editors"@en .
+
+category:Keyhole_Markup_Language a skos:Concept ;
+	skos:broader category:GIS_file_formats ;
+	skos:prefLabel "Keyhole Markup Language"@en .
+
+category:Spatial_databases a skos:Concept ;
+	skos:broader category:GIS_file_formats ;
+	skos:prefLabel "Spatial databases"@en .
+
+category:Vector_graphics_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Vector graphics markup languages"@en .
+
+category:Playlist_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Playlist markup languages"@en .
+
+category:Troff a skos:Concept ;
+	skos:broader category:Markup_languages , category:Mathematical_markup_languages ;
+	skos:prefLabel "Troff"@en .
+
+category:Domain-specific_knowledge_representation_languages a skos:Concept ;
+	skos:broader category:Knowledge_representation_languages ;
+	skos:prefLabel "Domain-specific knowledge representation languages"@en .
+
+category:DocBook a skos:Concept ;
+	skos:broader category:Markup_languages , category:XML_markup_languages ;
+	skos:prefLabel "DocBook"@en .
+
+category:MathML a skos:Concept ;
+	skos:broader category:Mathematical_markup_languages ;
+	skos:prefLabel "MathML"@en .
+
+category:Mathematical_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Mathematical markup languages"@en .
+
+category:Semantic_HTML a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "Semantic HTML"@en .
+
+category:RDF_data_access a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "RDF data access"@en .
+
+category:Linux_TeX_software a skos:Concept ;
+	skos:broader category:TeX ;
+	skos:prefLabel "Linux TeX software"@en .
+
+category:Text_Encoding_Initiative a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Text Encoding Initiative"@en .
+
+category:XQuery_processors a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XQuery processors"@en .
+
+category:BibTeX a skos:Concept ;
+	skos:broader category:TeX ;
+	skos:prefLabel "BibTeX"@en .
+
+category:SyncML a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "SyncML"@en .
+
+category:XML_technology_people a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML technology people"@en .
+
+category:HTML5 a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "HTML5"@en .
+
+category:HTML a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "HTML"@en .
+
+category:HTML_editors a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "HTML editors"@en .
+
+category:XML-based_standards a skos:Concept ;
+	skos:broader category:XML ;
+	skos:prefLabel "XML-based standards"@en .
+
+category:Markup_languages a skos:Concept ;
+	skos:prefLabel "Markup Languages" .
+
+category:Knowledge_representation_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Knowledge representation languages"@en .
+
+category:Page_description_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Page description markup languages"@en .
+
+category:XML_markup_languages a skos:Concept ;
+	skos:broader category:Markup_languages , category:XML ;
+	skos:prefLabel "XML markup languages"@en .
+
+category:Web_syndication_formats a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Web syndication formats"@en .
+
+category:Markup_language_comparisons a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "Markup language comparisons"@en .
+
+category:JSON a skos:Concept ;
+	skos:broader category:Markup_languages ;
+	skos:prefLabel "JSON"@en .

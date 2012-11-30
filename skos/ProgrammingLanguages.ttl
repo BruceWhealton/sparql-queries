@@ -1,0 +1,515 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix category: <http://dbpedia.org/resource/Category:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+category:Ada_programming_language a skos:Concept ;
+	skos:broader category:Procedural_programming_languages , category:Concurrent_programming_languages , category:Statically_typed_programming_languages ;
+	skos:prefLabel "Ada programming language"@en .
+
+<http://dbpedia.org/resource/Category:.NET_programming_languages> a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel ".NET programming languages"@en .
+
+category:Text-oriented_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Text-oriented programming languages"@en .
+
+category:Object-oriented_programming_languages a skos:Concept ;
+	skos:broader category:Object-based_programming_languages ;
+	skos:prefLabel "Object-oriented programming languages"@en .
+
+category:Dynamically_typed_programming_languages a skos:Concept ;
+	skos:broader category:Dynamic_programming_languages ;
+	skos:prefLabel "Dynamically typed programming languages"@en .
+
+category:Dylan_programming_language a skos:Concept ;
+	skos:broader category:Functional_languages , category:Wikipedia_categories_named_after_programming_languages ;
+	skos:prefLabel "Dylan programming language"@en .
+
+category:Concurrent_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Concurrent programming languages"@en .
+
+category:Prototype-based_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Prototype-based programming languages"@en .
+
+category:Concatenative_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Concatenative programming languages"@en .
+
+category:Numerical_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Numerical programming languages"@en .
+
+category:Secure_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Secure programming languages"@en .
+
+category:Prolog_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Prolog programming language family"@en .
+
+<http://dbpedia.org/resource/Category:Python_(programming_language)> a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Python (programming language)"@en .
+
+category:MUD_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "MUD programming languages"@en .
+
+category:Query_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Query languages"@en .
+
+category:Parser_generators a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Parser generators"@en .
+
+category:Computer_algebra_systems a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Computer algebra systems"@en .
+
+category:Ada_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Ada programming language family"@en .
+
+category:Proof_assistants a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Proof assistants"@en .
+
+category:Icon_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Icon programming language family"@en .
+
+category:JavaScript_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "JavaScript programming language family"@en .
+
+category:Logo_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Logo programming language family"@en .
+
+category:Programming_languages_created_in_the_21st_century a skos:Concept ;
+	skos:broader category:Programming_languages_by_creation_date ;
+	skos:prefLabel "Programming languages created in the 21st century"@en .
+
+category:Scala_programming_language a skos:Concept ;
+	skos:broader category:Multi-paradigm_programming_languages ;
+	skos:prefLabel "Scala programming language"@en .
+
+category:Discontinued_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Discontinued programming languages"@en .
+
+category:Uncategorized_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Uncategorized programming languages"@en .
+
+category:Wikipedia_categories_named_after_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Wikipedia categories named after programming languages"@en .
+
+category:Function-level_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Function-level languages"@en .
+
+category:Typesetting_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Typesetting programming languages"@en .
+
+category:Set_theoretic_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Set theoretic programming languages"@en .
+
+category:Multi-paradigm_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Multi-paradigm programming languages"@en .
+
+category:Statically_typed_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Statically typed programming languages"@en .
+
+category:Systems_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Systems programming languages"@en .
+
+category:Functional_languages a skos:Concept ;
+	skos:broader category:Programming_languages , category:Declarative_programming_languages ;
+	skos:prefLabel "Functional languages"@en .
+
+category:Procedural_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Procedural programming languages"@en .
+
+category:Structured_programming_languages a skos:Concept ;
+	skos:broader category:Procedural_programming_languages ;
+	skos:prefLabel "Structured programming languages"@en .
+
+category:BASIC_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "BASIC programming language family"@en .
+
+<http://dbpedia.org/resource/Category:C++> a skos:Concept ;
+	skos:broader category:Multi-paradigm_programming_languages ;
+	skos:prefLabel "C++"@en .
+
+category:Non-English-based_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Non-English-based programming languages"@en .
+
+category:Declarative_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Declarative programming languages"@en .
+
+category:Erlang_programming_language a skos:Concept ;
+	skos:broader category:Concurrent_programming_languages , category:Functional_languages , category:Wikipedia_categories_named_after_programming_languages ;
+	skos:prefLabel "Erlang programming language"@en .
+
+category:Object-based_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Object-based programming languages"@en .
+
+category:Stack-oriented_programming_languages a skos:Concept ;
+	skos:broader category:Data-structured_programming_languages ;
+	skos:prefLabel "Stack-oriented programming languages"@en .
+
+category:Fortran_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Fortran programming language family"@en .
+
+category:MUMPS_programming_language_family a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "MUMPS programming language family"@en .
+
+<http://dbpedia.org/resource/Category:4GL> a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "4GL"@en .
+
+category:SNOBOL_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "SNOBOL programming language family"@en .
+
+category:Academic_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Academic programming languages"@en .
+
+category:Declarative_markup_languages a skos:Concept ;
+	skos:broader category:Declarative_programming_languages ;
+	skos:prefLabel "Declarative markup languages"@en .
+
+category:Robot_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Robot programming languages"@en .
+
+category:Logic_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages , category:Declarative_programming_languages ;
+	skos:prefLabel "Logic programming languages"@en .
+
+category:ML_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families , category:Functional_languages ;
+	skos:prefLabel "ML programming language family"@en .
+
+category:Oberon_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Oberon programming language family"@en .
+
+category:Lists_of_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Lists of programming languages"@en .
+
+category:High-level_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "High-level programming languages"@en .
+
+category:Simulation_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Simulation programming languages"@en .
+
+category:Audio_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Audio programming languages"@en .
+
+category:JOSS_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "JOSS programming language family"@en .
+
+category:BASIC_programming_language a skos:Concept ;
+	skos:broader category:Procedural_programming_languages ;
+	skos:prefLabel "BASIC programming language"@en .
+
+<http://dbpedia.org/resource/Category:C++_Standard_Library> a skos:Concept ;
+	skos:broader category:Programming_language_standards ;
+	skos:prefLabel "C++ Standard Library"@en .
+
+category:SR_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "SR programming language family"@en .
+
+category:Haskell_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families , category:Functional_languages ;
+	skos:prefLabel "Haskell programming language family"@en .
+
+category:Data-structured_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Data-structured programming languages"@en .
+
+category:C_standard_library a skos:Concept ;
+	skos:broader category:Programming_language_standards ;
+	skos:prefLabel "C standard library"@en .
+
+category:Nondeterministic_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Nondeterministic programming languages"@en .
+
+category:Intensional_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Intensional programming languages"@en .
+
+category:Reactive_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Reactive programming languages"@en .
+
+category:ICL_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "ICL programming languages"@en .
+
+<http://dbpedia.org/resource/Category:Rust_(programming_language)> a skos:Concept ;
+	skos:broader category:Concurrent_programming_languages , category:Functional_languages , category:Procedural_programming_languages , category:Pattern_matching_programming_languages , category:Multi-paradigm_programming_languages , category:Statically_typed_programming_languages ;
+	skos:prefLabel "Rust (programming language)"@en .
+
+category:Assembly_languages a skos:Concept ;
+	skos:broader category:Procedural_programming_languages ;
+	skos:prefLabel "Assembly languages"@en .
+
+category:Scripting_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Scripting languages"@en .
+
+category:Esoteric_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Esoteric programming languages"@en .
+
+category:Extensible_syntax_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Extensible syntax programming languages"@en .
+
+category:JavaScript a skos:Concept ;
+	skos:broader category:Object-based_programming_languages , category:Prototype-based_programming_languages ;
+	skos:prefLabel "JavaScript"@en .
+
+category:Fortran a skos:Concept ;
+	skos:broader category:Procedural_programming_languages ;
+	skos:prefLabel "Fortran"@en .
+
+category:Java_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Java programming language family"@en .
+
+category:Domain-specific_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Domain-specific programming languages"@en .
+
+category:Java_programming_language a skos:Concept ;
+	skos:broader category:Concurrent_programming_languages ;
+	skos:prefLabel "Java programming language"@en .
+
+category:Programming_language_families a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Programming language families"@en .
+
+category:Agent-based_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Agent-based programming languages"@en .
+
+category:Pascal a skos:Concept ;
+	skos:broader category:Procedural_programming_languages , category:Statically_typed_programming_languages ;
+	skos:prefLabel "Pascal"@en .
+
+category:Page_description_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Page description languages"@en .
+
+category:Ruby_programming_language a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Ruby programming language"@en .
+
+category:Smalltalk_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Smalltalk programming language family"@en .
+
+category:XML-based_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "XML-based programming languages"@en .
+
+category:Tcl_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Tcl programming language family"@en .
+
+category:Visual_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Visual programming languages"@en .
+
+category:Term-rewriting_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Term-rewriting programming languages"@en .
+
+category:Synchronous_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Synchronous programming languages"@en .
+
+category:ALGOL_60_compilers a skos:Concept ;
+	skos:broader category:Procedural_programming_languages ;
+	skos:prefLabel "ALGOL 60 compilers"@en .
+
+category:Pascal_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Pascal programming language family"@en .
+
+category:Discontinued_BASICs a skos:Concept ;
+	skos:broader category:Discontinued_programming_languages ;
+	skos:prefLabel "Discontinued BASICs"@en .
+
+category:Experimental_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Experimental programming languages"@en .
+
+category:Programming_languages_by_creation_date a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Programming languages by creation date"@en .
+
+category:Perl_6 a skos:Concept ;
+	skos:broader category:Extensible_syntax_programming_languages ;
+	skos:prefLabel "Perl 6"@en .
+
+category:Programming_language_standards a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Programming language standards"@en .
+
+category:Avionics_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Avionics programming languages"@en .
+
+category:High_Integrity_Programming_Language a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "High Integrity Programming Language"@en .
+
+category:Array_programming_languages a skos:Concept ;
+	skos:broader category:Data-structured_programming_languages ;
+	skos:prefLabel "Array programming languages"@en .
+
+category:Dynamic_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Dynamic programming languages"@en .
+
+category:APL_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "APL programming language family"@en .
+
+category:Pattern_matching_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Pattern matching programming languages"@en .
+
+category:C_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families , category:Procedural_programming_languages ;
+	skos:prefLabel "C programming language family"@en .
+
+category:Low-level_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Low-level programming languages"@en .
+
+category:Lisp_programming_language_family a skos:Concept ;
+	skos:broader category:Extensible_syntax_programming_languages , category:Programming_language_families , category:Functional_languages ;
+	skos:prefLabel "Lisp programming language family"@en .
+
+category:Perl a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Perl"@en .
+
+category:Forth_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Forth programming language family"@en .
+
+category:Ecma_standards a skos:Concept ;
+	skos:broader category:Programming_language_standards ;
+	skos:prefLabel "Ecma standards"@en .
+
+category:Programming_languages a skos:Concept ;
+	skos:prefLabel "Programming Languages" .
+
+category:Knowledge_representation_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Knowledge representation languages"@en .
+
+category:Educational_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Educational programming languages"@en .
+
+category:Spreadsheet_software a skos:Concept ;
+	skos:broader category:Visual_programming_languages , category:Functional_languages ;
+	skos:prefLabel "Spreadsheet software"@en .
+
+category:Functional_logic_programming_languages a skos:Concept ;
+	skos:broader category:Declarative_programming_languages , category:Functional_languages , category:Multi-paradigm_programming_languages ;
+	skos:prefLabel "Functional logic programming languages"@en .
+
+category:Algol_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Algol programming language family"@en .
+
+category:Modula_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "Modula programming language family"@en .
+@prefix ns3: <http://dbpedia.org/resource/Category:PL/> .
+
+ns3:I_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "PL/I programming language family"@en .
+
+category:Formula_manipulation_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Formula manipulation languages"@en .
+
+category:Statistical_programming_languages a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Statistical programming languages"@en .
+
+category:Programming_languages_created_in_the_20th_century a skos:Concept ;
+	skos:broader category:Programming_languages_by_creation_date ;
+	skos:prefLabel "Programming languages created in the 20th century"@en .
+
+category:FP_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "FP programming language family"@en .
+
+category:SETL_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "SETL programming language family"@en .
+
+category:XBase_programming_language_family a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "XBase programming language family"@en .
+
+category:Tree_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Tree programming languages"@en .
+
+category:Dependently_typed_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Dependently typed languages"@en .
+
+<http://dbpedia.org/resource/Category:R_(programming_language)> a skos:Concept ;
+	skos:broader category:Programming_language_families ;
+	skos:prefLabel "R (programming language)"@en .
+
+category:Agent-oriented_programming_languages a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Agent-oriented programming languages"@en .
+
+category:Programming_languages_conferences a skos:Concept ;
+	skos:broader category:Programming_languages ;
+	skos:prefLabel "Programming languages conferences"@en .
+
+category:Web_programming a skos:Concept ;
+	skos:broader category:Domain-specific_programming_languages ;
+	skos:prefLabel "Web programming"@en .

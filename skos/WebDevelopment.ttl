@@ -1,0 +1,186 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix category: <http://dbpedia.org/resource/Category:> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+category:Web_accessibility a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web accessibility"@en .
+
+category:News_aggregators a skos:Concept ;
+	skos:broader category:Web_syndication ;
+	skos:prefLabel "News aggregators"@en .
+
+category:Web_server_software a skos:Concept ;
+	skos:broader category:HTTP ;
+	skos:prefLabel "Web server software"@en .
+
+category:Internet_search a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Internet search"@en .
+
+category:Cascading_Style_Sheets a skos:Concept ;
+	skos:broader category:Web_design ;
+	skos:prefLabel "Cascading Style Sheets"@en .
+
+category:Web_service_development_tools a skos:Concept ;
+	skos:broader category:Web_services , category:Web_development_software ;
+	skos:prefLabel "Web service development tools"@en .
+
+category:Web_service_providers a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Web service providers"@en .
+
+category:HTML_tags a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "HTML tags"@en .
+
+category:Uniform_resource_locator a skos:Concept ;
+	skos:broader category:Web_design ;
+	skos:prefLabel "Uniform resource locator"@en .
+
+category:Web_analytics a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web analytics"@en .
+
+category:HTTP_status_codes a skos:Concept ;
+	skos:broader category:HTTP ;
+	skos:prefLabel "HTTP status codes"@en .
+
+category:Web_syndication a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web syndication"@en .
+
+category:Web_designers a skos:Concept ;
+	skos:broader category:Web_design ;
+	skos:prefLabel "Web designers"@en .
+
+<http://dbpedia.org/resource/Category:Ajax_(programming)> a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Ajax (programming)"@en .
+
+category:Web_design_companies a skos:Concept ;
+	skos:broader category:Web_design ;
+	skos:prefLabel "Web design companies"@en .
+
+category:Web_caching_protocol a skos:Concept ;
+	skos:broader category:HTTP ;
+	skos:prefLabel "Web caching protocol"@en .
+
+category:Automated_WYSIWYG_editors a skos:Concept ;
+	skos:broader category:Web_development_software ;
+	skos:prefLabel "Automated WYSIWYG editors"@en .
+
+category:Web_design a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web design"@en .
+
+category:Python_web_application_frameworks a skos:Concept ;
+	skos:broader category:Web_application_frameworks ;
+	skos:prefLabel "Python web application frameworks"@en .
+
+category:Enterprise_application_integration a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Enterprise application integration"@en .
+
+category:Web_application_frameworks a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web application frameworks"@en .
+
+category:Instant_messaging a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Instant messaging"@en .
+
+category:Web_service_specifications a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Web service specifications"@en .
+
+category:Semantic_HTML a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "Semantic HTML"@en .
+
+category:Video_bloggers a skos:Concept ;
+	skos:broader category:Web_syndication ;
+	skos:prefLabel "Video bloggers"@en .
+
+category:Free_web_analytics_software a skos:Concept ;
+	skos:broader category:Web_analytics ;
+	skos:prefLabel "Free web analytics software"@en .
+
+category:Podcasting a skos:Concept ;
+	skos:broader category:Web_syndication ;
+	skos:prefLabel "Podcasting"@en .
+
+category:Free_web_development_software a skos:Concept ;
+	skos:broader category:Web_development_software ;
+	skos:prefLabel "Free web development software"@en .
+
+category:Web_mapping a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Web mapping"@en .
+
+category:JavaServer_Faces a skos:Concept ;
+	skos:broader category:Web_application_frameworks ;
+	skos:prefLabel "JavaServer Faces"@en .
+
+category:Web_operating_systems a skos:Concept ;
+	skos:broader category:Web_services ;
+	skos:prefLabel "Web operating systems"@en .
+
+category:HTML5 a skos:Concept ;
+	skos:broader category:HTML ;
+	skos:prefLabel "HTML5"@en .
+
+category:HTML a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "HTML"@en .
+
+category:HTML_editors a skos:Concept ;
+	skos:broader category:Web_development_software , category:HTML ;
+	skos:prefLabel "HTML editors"@en .
+
+category:WAMP a skos:Concept ;
+	skos:broader category:Web_development_software ;
+	skos:prefLabel "WAMP"@en .
+
+category:Web_development a skos:Concept ;
+	skos:prefLabel "Web Development" .
+
+category:HTTP a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "HTTP"@en .
+
+category:HTTP_clients a skos:Concept ;
+	skos:broader category:HTTP ;
+	skos:prefLabel "HTTP clients"@en .
+
+category:Web_development_software a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web development software"@en .
+
+category:Adobe_Flash a skos:Concept ;
+	skos:broader category:Web_development_software ;
+	skos:prefLabel "Adobe Flash"@en .
+
+category:Web_services a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Web services"@en .
+
+category:Website_management a skos:Concept ;
+	skos:broader category:Web_development ;
+	skos:prefLabel "Website management"@en .
+
+category:Rich_Internet_application_frameworks a skos:Concept ;
+	skos:broader category:Web_application_frameworks ;
+	skos:prefLabel "Rich Internet application frameworks"@en .
+
+category:Web_syndication_formats a skos:Concept ;
+	skos:broader category:Web_syndication ;
+	skos:prefLabel "Web syndication formats"@en .
+
+category:HTTP_headers a skos:Concept ;
+	skos:broader category:HTTP ;
+	skos:prefLabel "HTTP headers"@en .
+
+category:JSON a skos:Concept ;
+	skos:broader <http://dbpedia.org/resource/Category:Ajax_(programming)> ;
+	skos:prefLabel "JSON"@en .

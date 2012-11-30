@@ -1,0 +1,18 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX dbprop: <http://dbpedia.org/property/>
+PREFIX dbcat: <http://dbpedia.org/resource/Category:>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?term_label ?abstract ?wiki_page
+
+WHERE {
+      ?term dcterms:subject <http://dbpedia.org/resource/Category:Markup_languages> ;
+	     rdfs:label ?term_label ;
+             dbpedia-owl:abstract ?abstract ;
+             foaf:isPrimaryTopicOf ?wiki_page . 
+        FILTER ( lang(?term_label) = "en" ) 
+        FILTER (lang (?abstract) = "en" )
+               
+    } LIMIT 500

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>American Poets From Wikipedia</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+<!--<link rel="stylesheet" href="_css/yellow.css" />-->
+<link rel="stylesheet" href="_css/structure.css" />
+<link rel="stylesheet" href="_css/mystyles.css" />
+<script src="_js/american.poets.script.js"></script>
+<!--<script src="_js/iranian-poets-myscript.js"></script>-->
+
+<title>Poets By Nationality</title>
+</head>
+<body>
+<section id="american-poets-list" 
+             data-role="page" 
+             data-transition="pop" 
+             data-theme="e" 
+             data-title="A List of American Poets">
+  <div data-role="header">
+    <h1>American Poets From Wikipedia</h1>
+    <nav data-role="navbar">
+    	<ul data-role="listview">
+        	<li><a href="#iranian-poets-list">Iranian Poets</a></li>
+        </ul>
+    </nav>
+  </div><!-- /header -->
+  
+  <div data-role="content">
+    <ul data-role="listview" id="american-poets-list-result">
+    </ul>
+  </div><!-- /content -->
+  
+  <div data-role="footer"> <a href="#" id="prev" data-role="button">Prev 30</a> <a href="#" id="next" data-role="button">Next 30</a> </div>
+  <!-- /footer --> 
+</section><!-- /page -->
+
+<section id="american-poet-details" 
+     data-role="page" 
+     data-transition="pop" 
+     data-theme="e" 
+     data-title="Details about the Selected Poet">
+  <div data-role="header">
+    <h1>Details About the Poet</h1>
+    <nav data-role="navbar"> <a href="#home"
+     data-transition="flip"
+     data-role="button"
+     data-icon="back">Home</a> 
+     <a href="#american-poets-page"
+     data-transition="flip"
+     data-role="button"
+     data-icon="back">American Poets List</a> 
+     </nav>
+  </div>
+  <!--header -->
+    <div id="american_poet_result_details"> </div>
+    <div data-role="collapsible" data-collapsed="false">
+      <h1>Above Data Retrieved from DBpedia</h1>
+      <h3>Click on the Poet's Name to Visit an Article about them on Wikipedia.</h3>
+      <p>DBpedia.org is a "Semantic Web" version of Wikipedia.  Much of the data that is stored in Wikipedia was extracted and stored in a format known as RDF.  It is also open and available for searching, if you know the vocabulary, which can be found on DBpedia.org</p>
+    </div>
+  </div>  <!-- content--> 
+</section><!--page-->
+<section id="iranian-poets-list" 
+             data-role="page" 
+             data-transition="pop" 
+             data-theme="e" 
+             data-title="A List of Iranian Poets">
+  <div data-role="header">
+    <h1>Iranian Poets From Wikipedia</h1>
+  </div>  <!-- /header -->
+  
+  <div data-role="content">
+    <ul data-role="listview" id="iranian-poets-result">
+    </ul>
+  </div>  <!-- /content -->
+  
+  <div data-role="footer"> <a href="#" id="prev" data-role="button">Prev 30</a> <a href="#" id="next" data-role="button">Next 30</a> </div><!-- /footer --> 
+</section><!-- /page -->
+
+<section id="iranian-poet-details" 
+     data-role="page" 
+     data-transition="pop" 
+     data-theme="e" 
+     data-title="Details about Poet">
+  <div data-role="header">
+    <h1>Details About the Poet</h1>
+  </div>  <!--header -->
+  <div data-role="content" id="iranian_poet_details_content"> 
+  		<a href="#iranian-poets-list"
+       data-transition="slide"
+       data-role="button"
+       data-icon="back"
+       data-iconpos="right">Return to Iranian Poets List</a>
+    <div id="iranian_poet_result_details"> </div>
+    <div data-role="collapsible" data-collapsed="false">
+      <h1>Above Data Retrieved from DBpedia</h1>
+      <h3>Click on the Poet's Name to Visit an Article about them on Wikipedia.</h3>
+      <p>DBpedia.org is a "Semantic Web" version of Wikipedia.  Much of the data that is stored in Wikipedia was extracted and stored in a format known as RDF.  It is also open and available for searching, if you know the vocabulary, which can be found on DBpedia.org</p>
+    </div>
+  </div> <!-- content--> 
+</section><!--page-->
+</body>
+</html>

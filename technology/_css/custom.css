@@ -1,0 +1,17 @@
+@charset "utf-8";
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 0.9em;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+}
+table {
+	border: 2px groove rgba(102,0,51,1);
+}
+td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 0.95em;
+	border: 2px groove rgba(153,51,0,1);
+}
